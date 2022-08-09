@@ -25,14 +25,5 @@ def filter_data(df):
 
 if __name__=="__main__":
     
-    #absorbance("calibration_curve/c1500_4_ref", "calibration_curve/c1500_4_t4")
-    save_to_pkl(absorbance("calibration_curve/c1500_4_ref", "calibration_curve/c1500_4_t4"), "calibration_curve/c1500_4_t4_abs")
-
-    #data = load_pkl("test_abs_autosave")
-    #x = data[['wavelengths']]
-    #y = data[['absorbance']]
-    #plot_spectre(x, y)
-
-
-
-
+    absorbance("calibration_curve/c1500_4_ref", "calibration_curve/c1500_4_t4")
+    #save_to_pkl(absorbance("calibration_curve/c1500_4_ref", "calibration_curve/c1500_4_t4"), "calibration_curve/c1500_4_t4_abs")
