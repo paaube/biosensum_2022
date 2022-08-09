@@ -45,8 +45,3 @@ y3 = filter_data(np.ravel(np.log10(data1[['intensities']] / data2[['intensities'
 plot_spectre_4(x1, y1, x2, y2)
 plot_spectre_2(x1, y3)
 
-y_test = data1[['intensities']]
-plot_spectre_2(x1, y1)
-plot_spectre_2(x1, y_test)
-
-
