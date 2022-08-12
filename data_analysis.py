@@ -27,8 +27,8 @@ def plot_spectre_2(x1, y1):
 
        plt.show()
 
-data1 = load_pkl("calibration_curve/c1500_3_ref").T
-data2 = load_pkl("calibration_curve/c1500_3_t4").T
+data1 = load_pkl("bare_vs_nano/bare").T
+data2 = load_pkl("bare_vs_nano/nano").T
 
 max1 = (data1[(data1['wavelengths'] > 450) & (data1['wavelengths'] < 465)])[['intensities']].max()
 max2 = (data2[(data2['wavelengths'] > 450) & (data2['wavelengths'] < 465)])[['intensities']].max()

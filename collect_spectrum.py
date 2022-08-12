@@ -38,6 +38,6 @@ def load_pkl(filename):
 
 if __name__=="__main__":
        #get_spectre()
-       save_to_pkl(get_spectre(), "3_types_of_fiber/normal_tip")
+       save_to_pkl(get_spectre(), "bare_vs_nano/bare")
 
 
