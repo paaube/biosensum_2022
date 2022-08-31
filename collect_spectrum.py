@@ -38,6 +38,6 @@ def load_pkl(filename):
 
 if __name__=="__main__":
        #get_spectre()
-       save_to_pkl(get_spectre(), "bare_vs_nano/bare")
+       save_to_pkl(get_spectre(), "plasma_calibration/c1500_t4")
 
 

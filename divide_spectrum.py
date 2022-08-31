@@ -26,4 +26,4 @@ def filter_data(df):
 if __name__=="__main__":
     
     #absorbance("calibration_curve/c55_2_ref", "calibration_curve/c55_2_t4")
-    save_to_pkl(absorbance("calibration_curve/c55_3_ref", "calibration_curve/c55_3_t4"), "calibration_curve/c55_3_t4_abs")
+    save_to_pkl(absorbance("plasma_calibration/c1500_ref", "plasma_calibration/c1500_t4"), "plasma_calibration/c1500_abs")
